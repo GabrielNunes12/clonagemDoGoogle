@@ -89,3 +89,18 @@ span.showMic {
 a.disableMic:visited {
   color: inherit;
 }
+
+.btn-Google {
+  position: relative;
+  left: 44em;
+}
+
+.btn_enviar {
+  border: none;
+  border-radius: 20px;
+}
+
+.btn_feeling_lucky {
+  border: none;
+  border-radius: 20px;
+}
