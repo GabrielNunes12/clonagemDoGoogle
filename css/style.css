@@ -1,108 +1,115 @@
-body {
-  background: #000;
-  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-  font-size: 81.25%;
-}
-.googleBar {
-  height: 56px;
-}
-.backgroundImage {
-  border: none;
-  height: 100%;
-  pointer-events: none;
-  position: fixed;
-  top: 0;
-  visibility: hidden;
-  width: 50%;
-}
-[show-background-image] #backgroundImage {
-  visibility: visible;
-}
+@media screen and (min-width: 800px) {
+  body {
+    background: #000;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+  }
 
-.input {
-  position: relative;
-  left: 30em;
-  background-color: #ffffff;
-  border: none;
-  font-size: 16px;
-  height: 70%;
-  outline: none;
-  padding-inline-end: 44px;
-  padding-inline-start: 52px;
-  position: relative;
-  width: 30%;
-}
+  .googleBar {
+    height: 56px;
+  }
 
-input {
-  border-radius: 20px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-rendering: auto;
-  color: -internal-light-dark(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  appearance: auto;
-  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  margin: 0em;
-  font: 400 13.3333px Arial;
-  padding: 1px 2px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
-}
+  .backgroundImage {
+    border: none;
+    height: 100%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 50%;
+  }
+  
+  [show-background-image] #backgroundImage {
+    visibility: visible;
+  }
 
-img#logo {
-  padding: 70px 40px;
-  position: relative;
-  left: 38.3em;
-  forced-color-adjust: none;
-  direction: ltr;
-  display: block;
-  height: 92px;
-  width: 272px;
-  color: gray;
-  align-items: center;
-}
-
-span.showIcon {
-  position: fixed;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  left: 39em;
-}
-span.showMic {
-  position: fixed;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  left: 66.3em;
-  cursor: pointer;
-}
-
-a.disableMic:visited {
-  color: inherit;
-}
-
-.btn-Google {
-  position: relative;
-  left: 44em;
-}
-
-.btn_enviar {
-  padding: 15px 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn_feeling_lucky {
-  padding: 15px 10px;
-  border: none;
-  border-radius: 5px;
+  .input {
+    position: relative;
+    left: 30em;
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    height: 70%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 30%;
+  }
+  
+  input {
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+  }
+  
+  img#logo {
+    padding: 70px 40px;
+    position: relative;
+    left: 38.3em;
+    forced-color-adjust: none;
+    direction: ltr;
+    display: block;
+    height: 92px;
+    width: 272px;
+    color: gray;
+    align-items: center;
+  }
+  
+  span.showIcon {
+    width: auto;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 39em;
+  }
+  span.showMic {
+    width: auto;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 66.3em;
+    cursor: pointer;
+  }
+  
+  a.disableMic:visited {
+    color: inherit;
+  }
+  
+  .btn-Google {
+    position: relative;
+    left: 44em;
+  }
+  
+  .btn_enviar {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn_feeling_lucky {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+  }
 }
